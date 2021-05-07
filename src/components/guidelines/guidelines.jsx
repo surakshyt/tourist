@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import './guidelines.css';
+import enjoy from '../../images/tourist-enjoy.jpg';
 class Guidelines extends Component {
     state = {  }
     render() { 
         return ( <section id="guidelines">
             <h2>Guidelines to ease your visit in Nepal</h2>
-            <img src="../../../images/tourist-enjoy.jpg" alt=""/>
+            <img src={enjoy} alt=""/>
             <div className="desc">
             <p> Nepal is one of  the most loved country by the tourist from all around the world
             Many people from all around the world visit people every year.  It is one of the major tourist destination in the world.
